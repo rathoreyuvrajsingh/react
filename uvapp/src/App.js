@@ -1,8 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import "./NavBar";
+import NavBar from "./NavBar";
+
+
 
 function App() {
-  return  <></>;
+  return(
+  <>
+     <NavBar />
+    
+ </>
+  );
 }
 
 export default App;
