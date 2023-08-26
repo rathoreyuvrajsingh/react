@@ -46,6 +46,14 @@ const ImageData2 =[
         title : "Volleyball",
 
     },
+    {
+        id:7,
+        imgsrc :"https://i2.wp.com/www.acolorfulriot.com/wp-content/uploads/2020/06/Chain-Chain-game.jpg?fit=960%2C543",
+        desc :"Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball .",
+        title : "Volleyball",
+
+    },
+
 ]
 
 export default ImageData2;
