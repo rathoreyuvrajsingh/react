@@ -7,7 +7,9 @@ import  { useState,useEffect } from 'react';
 
 
 const ncard = (val) =>{
-  return < ImageCard key={val.id} title={val.title} imgsrc={val.image} desc={val.desc} />
+  return < ImageCard key={val.id} title={val.title} price={val.price} imgsrc={val.image} desc={val.description} />
+}
+
 
 
 const ProjectCard = () => {
@@ -32,7 +34,7 @@ const ProjectCard = () => {
   },[]);
 
 
-}
+
 
   return (
     <div  className='row'>

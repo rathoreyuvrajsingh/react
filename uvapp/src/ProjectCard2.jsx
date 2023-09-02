@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageCard2 from './ImageCard2'
-// import ImageData2 from './ImageData2'
+import ImageData2 from './ImageData2'
 
 const ncard = (val) =>{
     return < ImageCard2 key={val.id} title={val.title} imgsrc={val.imgsrc} desc={val.desc} />
